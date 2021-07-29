@@ -1,0 +1,20 @@
+body{
+    --margin-desktop: 96px;
+    --margin-mobile: 24px;
+    --main-color: #0584D9;
+}
+.hero, .section{
+    margin-left: var(--margin-desktop);
+    margin-right: var(--margin-desktop);
+}
+.input{
+    box-shadow: none;
+    border-radius: 8px;
+    border: none;
+}
+@media (max-width: 1024px){
+    .hero, .section{
+        margin-left: var(--margin-mobile);
+        margin-right: var(--margin-mobile);
+    }
+}
